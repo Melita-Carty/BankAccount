@@ -16,15 +16,17 @@ Questions:
 User Story 2 - Bank Statement:
 
 As a user of the app, I want to be able to see a log of transactions (including deposits and withdrawals) like a bank statement.
-- AC001: Each transaction includes the following information:
+
+- AC001: I can go into the app to view a bank statement. I can provide a start date and end date. The statement shows me the following information:
+    - All transactions within this period (inclusive)
+    - I can see the start and end balance of the account for this period.
+
+- AC002: For each transaction, the following information is shown:
     - The value
+    - If it was a deposit or withdrawal
     - The datetime when the transaction occurred
     - The value of the account before the transaction
     - The value of the account after the transaction
-
-- AC002: I can go into the app and view a bank statement. I can provide two dates and all transactions between these dates (inclsive) are included. The statement shows me the following information:
-    - For each transaction, I can see the value, datetime and if it was a deposit or withdrawal
-    - I can see the start and end values of the account for this period.
 
 Questions:
 
