@@ -4,31 +4,30 @@ employee_data = {
     "last_name": "Carty",
     "role": "Software Engineer",
   },
-  2: "{"
+  2: {
     "first_name": "Bob",
     "last_name": "Smith",
     "role": "Software Engineer",
   },
-};
+}
 
 employee_data["1"]["first_name"] = "Alice";
 
 transactions = {
   1: {
-    value: "10",
-    date: "15-12-25",
-    time: "13:00",
-    type: "deposit",
+    "value": "10",
+    "date": "15-12-25",
+    "time": "13:00",
+    "type": "deposit",
   },
-};
+}
 
 accounts = {
   1: {
     "name": "My Current Account",
     "type": "current account",
-    "description": """
-    This is my description
-    """"transactions": {
+    "description": "This is my description",
+    "transactions": {
       1: {
         "value": 10,
         "date": "15-12-25",
@@ -43,7 +42,7 @@ accounts = {
       },
     },
   },
-};
+}
 
 // What database setup will we have to do before the app runs?
 
