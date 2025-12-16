@@ -96,11 +96,14 @@ public class BankTests
         // Arrange
         var bankAccount = new BankAccount();
         var withdrawalAmount = 30;
-        bankAccount.Deposit(20);
+        decimal bankBalance = 20;
+
+        bankAccount.Deposit(bankBalance);
 
         // Act
         // Assert
         var ex = Assert.Throws<ArgumentException>(() => bankAccount.Withdraw(withdrawalAmount));
         Assert.That(ex.Message, Is.EqualTo("Withdrawal amount cannot be greater than account balance."));
+        Assert.That(bankAccount.GetBalance(), Is.EqualTo(bankBalance));
     }
 }
