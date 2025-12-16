@@ -1,7 +1,7 @@
 
 User Story 1 - Bank Account:
 
-- As a user of the app, I want to be able to have an account (one account for now)
+As a user of the app, I want to be able to have an account (one account for now)
 - AC001: The account can have:
     - A name
     - Balance
@@ -10,7 +10,8 @@ User Story 1 - Bank Account:
     - Description - multiline text field
 
 Questions:
-    - Which of the above fields should be required fields?
+
+- Which of the above fields should be required fields?
 
 User Story 2 - Bank Statement:
 
@@ -26,7 +27,8 @@ As a user of the app, I want to be able to see a log of transactions (including 
     - I can see the start and end values of the account for this period.
 
 Questions:
-    - How will you represent if the transaction is a deposit or withdrawal in the database?
+
+- How will you represent if the transaction is a deposit or withdrawal in the database?
 
 Notes:
 
